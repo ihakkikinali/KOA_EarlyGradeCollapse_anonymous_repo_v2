@@ -1,0 +1,4 @@
+group,count,mean,std,min,5%,50%,95%,max
+candidate pairs,223.0,0.736,0.075,0.444,0.639,0.728,0.875,0.941
+random same-grade cross-split,223.0,0.691,0.09,0.327,0.516,0.698,0.812,0.908
+same identifier L vs mirrored R,223.0,0.772,0.088,0.544,0.635,0.783,0.901,0.941

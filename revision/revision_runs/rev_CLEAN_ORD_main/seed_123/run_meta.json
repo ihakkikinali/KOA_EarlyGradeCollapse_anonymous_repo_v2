@@ -1,0 +1,30 @@
+{
+  "experiment": "rev_CLEAN_ORD_main",
+  "seed": 123,
+  "config_overrides": {
+    "ORDINAL_WEIGHT": 0.15,
+    "RANK_WEIGHT": 0.08,
+    "PAIRWISE_MARGIN": 1.0,
+    "ORDINAL_PROB_BLEND": 0.1,
+    "_EXCLUDE_PHASH": true
+  },
+  "n_train": 5596,
+  "n_val": 754,
+  "n_test": 1656,
+  "n_train_excluded": 182,
+  "n_val_excluded": 72,
+  "train_class_counts": [
+    2207,
+    1004,
+    1480,
+    734,
+    171
+  ],
+  "best_epoch": 31,
+  "wall_time_hours": 1.6498321017954085,
+  "ext_vs_original_test_prob_max_abs_diff": 1.1920928955078125e-07,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "finished_utc": "2026-11-05T03:31:46Z"
+}

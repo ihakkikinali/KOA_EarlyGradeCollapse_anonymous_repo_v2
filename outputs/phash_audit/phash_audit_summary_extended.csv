@@ -1,0 +1,2 @@
+n_images,n_train,n_val,n_test,hash_size,threshold,n_cross_split_near_duplicate_candidates,train_test_candidate_pairs,train_val_candidate_pairs,val_test_candidate_pairs,same_label_candidate_pairs,different_label_candidate_pairs,unique_train_images_involved,unique_val_images_involved,unique_test_images_involved
+8260,5778,826,1656,8,5,223,129,72,22,78,145,182,72,102

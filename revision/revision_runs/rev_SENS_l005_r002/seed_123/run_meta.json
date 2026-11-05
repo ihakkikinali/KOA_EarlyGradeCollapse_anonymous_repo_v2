@@ -1,0 +1,29 @@
+{
+  "experiment": "rev_SENS_l005_r002",
+  "seed": 123,
+  "config_overrides": {
+    "ORDINAL_WEIGHT": 0.05,
+    "RANK_WEIGHT": 0.02,
+    "PAIRWISE_MARGIN": 1.0,
+    "ORDINAL_PROB_BLEND": 0.1
+  },
+  "n_train": 5778,
+  "n_val": 826,
+  "n_test": 1656,
+  "n_train_excluded": 0,
+  "n_val_excluded": 0,
+  "train_class_counts": [
+    2286,
+    1046,
+    1516,
+    757,
+    173
+  ],
+  "best_epoch": 26,
+  "wall_time_hours": 1.4980243322584363,
+  "ext_vs_original_test_prob_max_abs_diff": 1.7881393432617188e-07,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "finished_utc": "2026-11-05T08:24:02Z"
+}

@@ -1,0 +1,4 @@
+threshold,candidate_pairs,train_test_pairs,train_val_pairs,val_test_pairs,same_label_pairs,different_label_pairs,affected_test_images_train_test,affected_test_images_any_cross_split
+3,10,5,4,1,2,8,5,6
+5,223,129,72,22,78,145,91,102
+8,22480,13799,6702,1979,7158,15322,1260,1278

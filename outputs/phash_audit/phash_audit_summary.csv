@@ -1,0 +1,2 @@
+n_images,n_train,n_val,n_test,hash_size,threshold,n_cross_split_near_duplicate_candidates
+8260,5778,826,1656,8,5,223

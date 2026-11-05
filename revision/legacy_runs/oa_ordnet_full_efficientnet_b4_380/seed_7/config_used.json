@@ -1,0 +1,89 @@
+{
+  "DATA_ROOT": "",
+  "OUT_DIR": "./oa_ordnet_v5_paper_safe_outputs",
+  "IMG_SIZE": 380,
+  "BATCH_SIZE": 8,
+  "NUM_WORKERS": 2,
+  "EPOCHS": 42,
+  "PATIENCE": 10,
+  "SEEDS": [
+    42,
+    7,
+    123
+  ],
+  "BACKBONE": "efficientnet_b4",
+  "PRETRAINED": true,
+  "USE_EXTRA_SE": true,
+  "DROPOUT": 0.3,
+  "USE_ROI_AUTOCROP": true,
+  "LOSS_MODE": "weighted_ce",
+  "LABEL_SMOOTHING": 0.02,
+  "FOCAL_GAMMA": 1.0,
+  "CB_BETA": 0.999,
+  "CE_WEIGHT": 1.0,
+  "ORDINAL_WEIGHT": 0.15,
+  "RANK_WEIGHT": 0.08,
+  "PAIRWISE_MARGIN": 1.0,
+  "ORDINAL_PROB_BLEND": 0.1,
+  "USE_WEIGHTED_SAMPLER": true,
+  "SAMPLER_POWER": 0.25,
+  "GRADE1_EXTRA_WEIGHT": 1.0,
+  "VAL_SCORE_ACC_W": 0.85,
+  "VAL_SCORE_QWK_W": 0.15,
+  "VAL_SCORE_G1_W": 0.0,
+  "USE_TTA_HFLIP": true,
+  "RUN_CLASS_BIAS_TUNING": true,
+  "RUN_MAIN_EXPERIMENTS": true,
+  "RUN_FULL_ABLATION": false,
+  "RUN_LAMBDA_DELTA_SENSITIVITY": false,
+  "RUN_MODEL_ZOO_SWEEP": false,
+  "REVIEWER_TABLE_SEEDS": [
+    42
+  ],
+  "REVIEWER_TABLE_EPOCHS": 42,
+  "REVIEWER_TABLE_PATIENCE": 10,
+  "RUN_GRADE01_REFINER": false,
+  "REFINER_EPOCHS": 20,
+  "REFINER_BACKBONE": "efficientnet_b0",
+  "SWEEP_EPOCHS": 18,
+  "SWEEP_PATIENCE": 6,
+  "SWEEP_SEED": 42,
+  "MODEL_ZOO_SWEEP": [
+    {
+      "name": "b3_300",
+      "BACKBONE": "efficientnet_b3",
+      "IMG_SIZE": 300,
+      "BATCH_SIZE": 16,
+      "DROPOUT": 0.3
+    },
+    {
+      "name": "b4_380",
+      "BACKBONE": "efficientnet_b4",
+      "IMG_SIZE": 380,
+      "BATCH_SIZE": 8,
+      "DROPOUT": 0.3
+    },
+    {
+      "name": "v2s_384",
+      "BACKBONE": "efficientnet_v2_s",
+      "IMG_SIZE": 384,
+      "BATCH_SIZE": 8,
+      "DROPOUT": 0.25
+    },
+    {
+      "name": "convnext_tiny_384",
+      "BACKBONE": "convnext_tiny",
+      "IMG_SIZE": 384,
+      "BATCH_SIZE": 8,
+      "DROPOUT": 0.25
+    }
+  ],
+  "LR_BACKBONE": 1.5e-05,
+  "LR_HEAD": 0.00015,
+  "WEIGHT_DECAY": 0.0001,
+  "GRAD_CLIP": 1.0,
+  "USE_AMP": true,
+  "SAVE_CHECKPOINTS": false,
+  "MAKE_ANON_REPO_PACKAGE": true,
+  "REPO_PACKAGE_NAME": "oa_ordnet_anonymous_repo_package"
+}

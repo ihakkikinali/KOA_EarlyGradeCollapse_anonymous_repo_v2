@@ -1,0 +1,4 @@
+split,unique_images_involved,split_size,percent_of_split
+test,102,1656,6.16
+train,182,5778,3.15
+val,72,826,8.72

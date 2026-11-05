@@ -1,0 +1,19 @@
+{
+ "gpu": 0,
+ "state": "finished",
+ "current": null,
+ "finished": [
+  {
+   "run": "rev_SENS_l005_r002/seed_7",
+   "hours": 1.62,
+   "check_diff": 1.7881393432617188e-07
+  },
+  {
+   "run": "rev_SENS_l035_r020/seed_123",
+   "hours": 1.71,
+   "check_diff": 1.1920928955078125e-07
+  }
+ ],
+ "est_hours": 1.9647867794864704,
+ "time": "08:44:31"
+}

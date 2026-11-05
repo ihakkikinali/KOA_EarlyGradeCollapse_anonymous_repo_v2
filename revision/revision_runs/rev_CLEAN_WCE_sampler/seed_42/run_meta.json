@@ -1,0 +1,28 @@
+{
+  "experiment": "rev_CLEAN_WCE_sampler",
+  "seed": 42,
+  "config_overrides": {
+    "LOSS_MODE": "weighted_ce",
+    "USE_WEIGHTED_SAMPLER": true,
+    "_EXCLUDE_PHASH": true
+  },
+  "n_train": 5596,
+  "n_val": 754,
+  "n_test": 1656,
+  "n_train_excluded": 182,
+  "n_val_excluded": 72,
+  "train_class_counts": [
+    2207,
+    1004,
+    1480,
+    734,
+    171
+  ],
+  "best_epoch": 16,
+  "wall_time_hours": 0.9943510406547122,
+  "ext_vs_original_test_prob_max_abs_diff": 1.1920928955078125e-07,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "finished_utc": "2026-11-05T00:21:55Z"
+}

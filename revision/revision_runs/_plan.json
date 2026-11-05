@@ -1,0 +1,152 @@
+[
+ {
+  "tier": "A",
+  "experiment": "rev_F_WCE_nosampler",
+  "seed": 42
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_CE_sampler",
+  "seed": 42
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_WCE_nosampler",
+  "seed": 7
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_CE_sampler",
+  "seed": 7
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_CE_nosampler",
+  "seed": 7
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_WCE_nosampler",
+  "seed": 123
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_CE_sampler",
+  "seed": 123
+ },
+ {
+  "tier": "A",
+  "experiment": "rev_F_CE_nosampler",
+  "seed": 123
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_CE_nosampler",
+  "seed": 2024
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_WCE_nosampler",
+  "seed": 2024
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_CE_sampler",
+  "seed": 2024
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_WCE_sampler",
+  "seed": 2024
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_ORD_main",
+  "seed": 2024
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_CE_nosampler",
+  "seed": 2025
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_WCE_nosampler",
+  "seed": 2025
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_CE_sampler",
+  "seed": 2025
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_F_WCE_sampler",
+  "seed": 2025
+ },
+ {
+  "tier": "B",
+  "experiment": "rev_ORD_main",
+  "seed": 2025
+ },
+ {
+  "tier": "C",
+  "experiment": "rev_CLEAN_WCE_sampler",
+  "seed": 42
+ },
+ {
+  "tier": "C",
+  "experiment": "rev_CLEAN_ORD_main",
+  "seed": 42
+ },
+ {
+  "tier": "C",
+  "experiment": "rev_CLEAN_WCE_sampler",
+  "seed": 7
+ },
+ {
+  "tier": "C",
+  "experiment": "rev_CLEAN_ORD_main",
+  "seed": 7
+ },
+ {
+  "tier": "C",
+  "experiment": "rev_CLEAN_WCE_sampler",
+  "seed": 123
+ },
+ {
+  "tier": "C",
+  "experiment": "rev_CLEAN_ORD_main",
+  "seed": 123
+ },
+ {
+  "tier": "D",
+  "experiment": "rev_SENS_l005_r002",
+  "seed": 42
+ },
+ {
+  "tier": "D",
+  "experiment": "rev_SENS_l035_r020",
+  "seed": 42
+ },
+ {
+  "tier": "D",
+  "experiment": "rev_SENS_l005_r002",
+  "seed": 7
+ },
+ {
+  "tier": "D",
+  "experiment": "rev_SENS_l035_r020",
+  "seed": 7
+ },
+ {
+  "tier": "D",
+  "experiment": "rev_SENS_l005_r002",
+  "seed": 123
+ },
+ {
+  "tier": "D",
+  "experiment": "rev_SENS_l035_r020",
+  "seed": 123
+ }
+]

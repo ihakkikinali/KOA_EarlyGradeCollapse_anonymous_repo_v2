@@ -1,0 +1,59 @@
+{
+ "subjects": {
+  "n_subjects": 4130,
+  "subjects_in_multiple_splits": 0,
+  "per_split": {
+   "test": 828,
+   "train": 2889,
+   "val": 413
+  },
+  "images_per_subject": {
+   "2": 4130
+  },
+  "LR_same_grade_fraction": 0.535593220338983,
+  "LR_grade_spearman": 0.5416607881625197
+ },
+ "ordinal_vs_wce_ensemble5_cluster_bootstrap": {
+  "qwk": [
+   -0.004138598605189524,
+   -0.011396278762626014,
+   0.003005864308252587
+  ],
+  "acc": [
+   -0.0007518115942029005,
+   -0.009057971014492794,
+   0.007261473429951706
+  ],
+  "macro_f1": [
+   -0.0016698474133452614,
+   -0.011687194361360268,
+   0.0072724172374206714
+  ],
+  "g1_recall": [
+   0.0061386057115444224,
+   -0.020691444934971947,
+   0.031155081775700935
+  ],
+  "g1_spec": [
+   0.006408194277418293,
+   -0.003703772341652203,
+   0.016108087666467753
+  ]
+ },
+ "phash": {
+  "affected_test_images": 102
+ },
+ "lambda_selected_by_mean_val_score": "0.05 / 0.02",
+ "ordinal_head_max_P_grade1": 0.25906658,
+ "bias_audit": {
+  "val_delta_acc_mean": 0.010088781275221928,
+  "test_delta_acc_mean": -0.005837359098228671,
+  "val_improved_runs": 6,
+  "test_improved_runs": 1
+ },
+ "grade1_average_precision": {
+  "WCE + sampler": 0.3603717626245528,
+  "Ordinal (moderate)": 0.36015753982737486,
+  "CE": 0.35836857226887053
+ }
+}
